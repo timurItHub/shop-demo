@@ -33,13 +33,13 @@ function HomePage() {
 
     return (
         <div className={styles['home-container']}>
-            {/* Главный баннер */}
+            
             <section className={styles['banner-section']}>
                 <h1>Amazing Discounts on Garden Products!</h1>
                 <button className={styles['checkout-button']}>Check out</button>
             </section>
 
-            {/* Категории */}
+            
             <section className={styles['categories-section']}>
                 <h2>Categories</h2>
                 <div className={styles['categories-container']}>
@@ -63,7 +63,7 @@ function HomePage() {
                 </div>
             </section>
 
-            {/* Продукты */}
+            
             <section className={styles['products-section']}>
                 <h2>Products</h2>
                 <div className={styles['products-container']}>
@@ -79,7 +79,7 @@ function HomePage() {
                 </div>
             </section>
 
-            {/* Секция скидки */}
+            
             <section className={styles['discount-section']}>
                 <h2>5% off on the first order</h2>
                 <form className={styles['discount-form']}>
