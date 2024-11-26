@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { cartReducer } from './reducers/cartReducer';
 
-// Редьюсеры
+
 const productsReducer = (state = { products: [] }, action) => {
   switch (action.type) {
     case 'SET_PRODUCTS':
@@ -20,7 +20,7 @@ const categoriesReducer = (state = { categories: [] }, action) => {
   }
 };
 
-// Конфигурация store
+
 const store = configureStore({
   reducer: {
     cart: cartReducer,
