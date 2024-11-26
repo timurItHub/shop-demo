@@ -1,5 +1,5 @@
 const initialState = {
-    cartItems: [], // Инициализируйте cartItems как пустой массив
+    cartItems: [], 
 };
 
 export const cartReducer = (state = initialState, action) => {
