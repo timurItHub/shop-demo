@@ -1,5 +1,5 @@
 const initialState = {
-    categories: [], // Пустой массив, так как мы ожидаем массив категорий
+    categories: [], 
   };
   
   export const categoriesReducer = (state = initialState, action) => {
